@@ -1,0 +1,14 @@
+D:\Загрузки\onit_Kursovaya-main\bin\Debug\ONIT_Kursov.exe.config
+D:\Загрузки\onit_Kursovaya-main\bin\Debug\ONIT_Kursov.exe
+D:\Загрузки\onit_Kursovaya-main\bin\Debug\ONIT_Kursov.pdb
+D:\Загрузки\onit_Kursovaya-main\obj\Debug\MainWindow.g.cs
+D:\Загрузки\onit_Kursovaya-main\obj\Debug\App.g.cs
+D:\Загрузки\onit_Kursovaya-main\obj\Debug\ONIT_Kursov_MarkupCompile.cache
+D:\Загрузки\onit_Kursovaya-main\obj\Debug\ONIT_Kursov_MarkupCompile.lref
+D:\Загрузки\onit_Kursovaya-main\obj\Debug\MainWindow.baml
+D:\Загрузки\onit_Kursovaya-main\obj\Debug\ONIT_Kursov.g.resources
+D:\Загрузки\onit_Kursovaya-main\obj\Debug\ONIT_Kursov.Properties.Resources.resources
+D:\Загрузки\onit_Kursovaya-main\obj\Debug\ONIT_Kursov.csproj.GenerateResource.cache
+D:\Загрузки\onit_Kursovaya-main\obj\Debug\ONIT_Kursov.csproj.CoreCompileInputs.cache
+D:\Загрузки\onit_Kursovaya-main\obj\Debug\ONIT_Kursov.exe
+D:\Загрузки\onit_Kursovaya-main\obj\Debug\ONIT_Kursov.pdb

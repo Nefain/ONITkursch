@@ -1,0 +1,40 @@
+﻿<Window x:Class="ONIT_Kursov_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ONIT_Kursov_3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="462.437" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <DockPanel>
+            <Canvas>
+                <Label Name="labelTableName" Canvas.Top="41" FontSize="18" Content="Categories" Canvas.Left="20" RenderTransformOrigin="0.508,1.018" FontFamily="Times New Roman"></Label>
+                <DataGrid Canvas.Left="20" Canvas.Top="80" AutoGenerateColumns="True" Height="340" ScrollViewer.CanContentScroll="True" ScrollViewer.VerticalScrollBarVisibility="Auto" x:Name="gridTable" HorizontalAlignment="Left" Width="auto" RenderTransformOrigin="0.5,0.5" CanUserAddRows="False" IsReadOnly="False" FontFamily="Times New Roman">
+                    <DataGrid.RowStyle>
+                        <Style TargetType="{x:Type DataGridRow}">
+                        </Style>
+                    </DataGrid.RowStyle>
+                </DataGrid>
+            </Canvas>
+        </DockPanel>
+        <ComboBox x:Name="combox" HorizontalAlignment="Left" Height="29" Margin="105,10,0,-20.6" VerticalAlignment="Top" Width="182" FontFamily="Times New Roman">
+            <ComboBoxItem Content="Categories" Foreground="Black" Selected="ShowCategoriesTable"/>
+            <ComboBoxItem Content="CustomerDemographics" Foreground="Black" Selected="ShowCustomerDemographicsTable"/>
+            <ComboBoxItem Content="Customers" Foreground="Black" Selected="ShowCustomersTable"/>
+            <ComboBoxItem Content="Employees" Foreground="Black" Selected="ShowEmployeesTable"/>
+            <ComboBoxItem Content="EmployeeTerritories" Foreground="Black" Selected="ShowEmployeeTerritoriesTable"/>
+            <ComboBoxItem Content="OrderDetails" Foreground="Black" Selected="ShowOrderDetailsTable"/>
+            <ComboBoxItem Content="Orders" Foreground="Black" Selected="ShowOrdersTable"/>
+            <ComboBoxItem Content="Products" Foreground="Black" Selected="ShowProductsTable"/>
+            <ComboBoxItem Content="Region" Foreground="Black" Selected="ShowRegionTable"/>
+            <ComboBoxItem Content="Shippers" Foreground="Black" Selected="ShowShippersTable"/>
+            <ComboBoxItem Content="Suppliers" Foreground="Black" Selected="ShowSuppliersTable"/>
+            <ComboBoxItem Content="Territories" Foreground="Black" Selected="ShowTerritoriesTable"/>
+        </ComboBox>
+        <Button x:Name="ExportBut" Content="Export To Excel" HorizontalAlignment="Left" Height="29" Margin="10,10,0,-22.2" VerticalAlignment="Top" Width="90" Click="ExcelExport" FontFamily="Times New Roman"/>
+    </Grid>
+</Window>
